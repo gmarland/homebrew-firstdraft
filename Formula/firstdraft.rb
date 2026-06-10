@@ -1,18 +1,18 @@
 class Firstdraft < Formula
   desc "FirstDraft worker CLI"
   homepage "https://github.com/gmarland/FirstDraft"
-  version "0.4.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/gmarland/FirstDraft/releases/download/v0.4.0/firstdraft-0.4.0-osx-arm64.tar.gz"
-      sha256 "9a0c530cd74b27dc70e03227f4c30645fe909d80a1c2fb51a1d295e226ea456f"
+      url "https://github.com/gmarland/FirstDraft/releases/download/v0.6.0/firstdraft-0.6.0-osx-arm64.tar.gz"
+      sha256 "e312712a260f672046bb3cec2165fe08deedc0104b0b1977622fbf2640f5c51c"
     end
 
     on_intel do
-      url "https://github.com/gmarland/FirstDraft/releases/download/v0.4.0/firstdraft-0.4.0-osx-x64.tar.gz"
-      sha256 "3cf389abccf40d3fe5c1c1c4172bf70e04104bc0c42caae5707264b470195cf6"
+      url "https://github.com/gmarland/FirstDraft/releases/download/v0.6.0/firstdraft-0.6.0-osx-x64.tar.gz"
+      sha256 "63f7d6d3924c5d309c25bfca7b4f23cc04eaee11d0d5e22f6d5255ac20a98838"
     end
   end
 
